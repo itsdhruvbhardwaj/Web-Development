@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0d0d0d;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {}
+
+.main {
+  display: flex;
+  padding-right: 90px;
+}
+
+.sidebar {
+  width: 350px;
+  padding: 20px 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar-top {
+  background: #252424;
+  width: 300px;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.sidebar-top h2 {
+  text-align: center;
+}
+
+.profile-image {
+  padding: 5%;
+  display: block;
+  border-radius: 40px;
+  margin: auto;
+  height: 60%;
+  width: 95%;
+  object-fit: cover;
+}
+
+.sidebar-top p {
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 10px;
+}
+
+.sidebar-top a.btn {
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  padding: 10px 40px;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.sidebar-bottom {
+  background: #252424;
+  padding: 15px;
+  border-radius: 20px;
+  width: 300px;
+}
+
+.sidebar-bottom .icons {
+  font-size: 22px;
+}
+
+.sidebar-bottom .icons i {
+  padding: 10px;
+  margin: 5px;
+}
+
+.sidebar-bottom p {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.intro {
+  padding: 20px 10px;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 750px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.intro img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 100% 30%;
+  border-radius: 20px;
+}
+
+.intro-card {
+  position: absolute;
+  padding: 15px;
+  bottom: 40px;
+  left: 40px;
+  width: 300px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 254, 254, 0.366);
+}
+
+.intro-card .btn-group {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.intro-card .red,
+.intro-card .dark {
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 14px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.intro-card .red {
+  background: #ff0000;
+}
+
+.intro-card .dark {
+  background: #000;
+}
+
+.rightsidebar {
+  width: 350px;
+  padding: 20px 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.about {
+  width: 300px;
+  padding: 15px;
+  background: #252424;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.address {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.links i {
+  color: white;
+  padding: 5px;
+  font-size: 22px;
+  margin: 0 10px;
+}
+
+.right-profile-image {
+  padding: 5%;
+  display: block;
+  border-radius: 40px;
+  margin: auto;
+  width: 95%;
+  object-fit: cover;
+}
+
+.rightsidebar .btn {
+  background: #ff0000;
+  color: #fff;
+  padding: 10px 40px;
+  font-size: 14px;
+  border-radius: 20px;
+  display: block;
+  margin: 15px auto 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 30%;
+  right: 20px;
+  width: 70px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #1a1a1a;
+  border-radius: 50px;
+}
+
+.nav-bar {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 22px;
+}
+
+.nav-link i {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-link.active i {
+  color: red;
+}
+
+.projects {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.projects h1 {
+  text-align: center;
+  font-size: 34px;
+}
+
+.project-grid {
+  padding: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  width: 300px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card .image-crop {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card .image-crop:hover img {
+  transform: scale(1.05);
+}
+
+.project-card h3 {
+  margin-top: 10px;
+}
+
+.project-card p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.project-card .tech-used {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 15px;
+  background: #000;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.project-card a {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* ---------- Services Section ---------- */
+.services {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.services h1 {
+  font-size: 34px;
+}
+
+.service-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.service {
+  width: 250px;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 20px;
+}
+
+.service i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* ---------- Responsive Design ---------- */
+@media (max-width: 1200px) {
+  .main {
+    flex-direction: column;
+    padding-right: 0;
+    align-items: center;
+  }
+
+  .sidebar,
+  .rightsidebar {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .intro {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .intro img {
+    height: auto;
+    max-height: 500px;
+  }
+
+  .intro-card {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .navbar {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 0;
+    padding: 10px 0;
+  }
+
+  .nav-bar {
+    flex-direction: row;
+    height: auto;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar-top,
+  .sidebar-bottom,
+  .about {
+    width: 100%;
+  }
+
+  .intro-card {
+    width: 90%;
+  }
+
+  .project-grid {
+    padding: 15px;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+
+  .service {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro {
+    padding: 10px;
+  }
+
+  .intro-card .btn-group {
+    flex-direction: column;
+  }
+
+  .intro-card .red,
+  .intro-card .dark {
+    width: 100%;
+  }
+
+  .nav-link i {
+    font-size: 18px;
+  }
+
+  .projects h1,
+  .services h1 {
+    font-size: 26px;
+  }
+}

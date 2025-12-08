@@ -1,0 +1,30 @@
+/* App.css - Used for base/global styles not handled by Tailwind CSS 
+*/
+
+/* Import the Inter font globally */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Apply the custom font to the body */
+body { 
+  font-family: 'Inter', sans-serif; 
+}
+
+/* Custom Scrollbar for better aesthetics */
+::-webkit-scrollbar { 
+  width: 8px; 
+}
+
+::-webkit-scrollbar-track { 
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb { 
+  background: #10B981; /* Tailwind green-500 equivalent */
+  border-radius: 4px; 
+}
+
+::-webkit-scrollbar-thumb:hover { 
+  background: #059669; /* Tailwind green-700 equivalent */
+}
+
+/* You would need to link this CSS file in your index.js or main entry file */

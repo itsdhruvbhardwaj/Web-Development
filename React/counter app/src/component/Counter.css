@@ -1,0 +1,22 @@
+.counter-container
+{
+    background-color: #715A5A;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.counter-container button{
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #37353E;
+    color: aliceblue;
+}

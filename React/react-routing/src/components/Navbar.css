@@ -1,0 +1,19 @@
+ul{
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+    height: 50px;
+    border-radius: 10px;
+}
+li{
+    color: aliceblue;
+}
+
+.active-link
+{
+    border: 2px solid white;
+}

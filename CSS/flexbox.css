@@ -1,0 +1,11 @@
+body{text-align: center;}
+
+div{height: 100px; width: 100px; display: inline-block; border: 2px solid black;}
+
+#container{width: 800px; height: 200px; display: flex; flex-direction: row-reverse; justify-content:flex-end ;}
+
+#box1{background-color: aqua;}
+#box2{background-color: rgb(153, 255, 0);}
+#box3{background-color: rgb(255, 51, 0);}
+#box4{background-color: rgb(47, 0, 255);}
+#box5{background-color: rgb(89, 4, 73);}

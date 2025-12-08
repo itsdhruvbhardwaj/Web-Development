@@ -1,0 +1,21 @@
+body
+{
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    background: black;
+}
+.container
+{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 88, 19);
+    border-radius: 20px;
+}
+img{
+    color: rgb(0, 0, 0);
+}

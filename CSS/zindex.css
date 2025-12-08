@@ -1,0 +1,13 @@
+div{height: 100px; width: 100px; border: 2px solid black;display: inline-block;}
+
+/* #box1{position: static;}
+#box2{position: relative; top: 10px; left: 20px;} */
+/* #box3{position: absolute; top: 20px;} */
+/* #box3{position: absolute ;z-index: 3    ;}
+#box4{position: fixed; top: 0px;} */ 
+
+/* body{background-image: url(photo.jpg);} */
+
+#box1{background-image: url(photo.jpg); background-size: cover;}
+#box2{background-image: url(photo.jpg); background-size: contain; background-repeat: no-repeat;}
+#box3{background-image: url(photo.jpg); background-size: auto;}

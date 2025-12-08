@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global custom styles */
+body {
+  @apply bg-gray-50 text-gray-800;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Section spacing */
+section {
+  @apply py-16 px-6 md:px-12;
+}

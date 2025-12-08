@@ -1,0 +1,11 @@
+.feature-card {
+  @apply p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition;
+}
+
+.feature-card h4 {
+  @apply text-xl font-bold text-green-600;
+}
+
+.feature-card p {
+  @apply mt-2 text-gray-600;
+}

@@ -1,0 +1,10 @@
+#container{
+  width: 200px;
+  height: 200px;
+  border: solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 10px;
+}
