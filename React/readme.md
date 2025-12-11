@@ -17,3 +17,7 @@ To install React Router DOM: look reactrouter.com
 
 To install React Hook Form: 
   npm i react-hook-form
+
+To install React Redux Toolkit:
+  npm install @reduxjs/toolkit
+  npm install react-redux
