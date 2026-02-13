@@ -21,3 +21,13 @@ To install React Hook Form:
 To install React Redux Toolkit:
   npm install @reduxjs/toolkit
   npm install react-redux
+
+  //https://redux-toolkit.js.org/tutorials/quick-start
+
+To install TailWind 
+  npm install tailwindcss @tailwindcss/vite
+
+  @import "tailwindcss"; //in html.css
+
+To insatll React Router DOM
+  npm install react-router-dom
